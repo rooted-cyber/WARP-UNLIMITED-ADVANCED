@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["python3","warp-plus.py"]
+RUN python3 warp-plus.py
